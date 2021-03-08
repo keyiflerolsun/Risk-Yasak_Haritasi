@@ -69,9 +69,17 @@ a:link {
     }
 }
 
-.table td, .table th {
+th:nth-child(odd) {
   border-top: 1px solid #a7a1ae;
   border-bottom: 1px solid #a7a1ae;
+}
+
+th:nth-child(even) {
+  border-top: 1px solid #2c3446;
+  border-bottom: 1px solid #2c3446;
+}
+
+.table td, .table th {
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
