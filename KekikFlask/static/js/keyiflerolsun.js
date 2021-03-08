@@ -3,6 +3,10 @@ $(function() {
         url: "/veri",
         type: "GET",
         dataType: "json",
+        beforeSend: function(){
+            document.getElementById("yukleniyo").classList.add("spin");
+            $("#yukleniyo").html('<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" style="fill:#fff;transform:;-ms-filter:"><path d="M12,22c5.421,0,10-4.579,10-10h-2c0,4.337-3.663,8-8,8s-8-3.663-8-8c0-4.336,3.663-8,8-8V2C6.579,2,2,6.58,2,12 C2,17.421,6.579,22,12,22z"></path></svg>');
+        },
         success: function(data){
             window.gelen_veri = data;
             svgturkiyeharitasi();
@@ -15,6 +19,7 @@ $(function() {
                 });
             });
             $('.svg-turkiye-haritasi').show();
+            $('#yukleniyo').remove();
         },
         error: function(error){
             return false;
