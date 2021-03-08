@@ -32,7 +32,7 @@ a:link {
 }
 
 .header {
-  top : 0;
+  top: 0;
   width: 100%;
   margin-bottom: 50px;
   height: 60px; /* Set the fixed height of the footer here */
@@ -53,20 +53,20 @@ a:link {
   text-align: center;
 }
 
-#yukleniyo.spin{
+#yukleniyo.spin {
   animation-name: spin;
   animation-duration: 500ms;
   animation-iteration-count: infinite;
-  animation-timing-function: linear; 
+  animation-timing-function: linear;
 }
 
 @keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 th:nth-child(odd) {
@@ -82,6 +82,7 @@ th:nth-child(even) {
 .table td, .table th {
   border-top-style: dashed;
   border-bottom-style: dashed;
+  vertical-align: middle;
 }
 
 .svg-turkiye-haritasi svg {
@@ -117,7 +118,7 @@ th:nth-child(even) {
 .secilen-il {
   font-size: 18;
   font-weight: bold;
-	color: #1f2739;
+  color: #1f2739;
 }
 
 /* Not required for template or sticky footer method. */
