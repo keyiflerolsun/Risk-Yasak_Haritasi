@@ -41,16 +41,16 @@ function svgturkiyeharitasi() {
   element.addEventListener(
     'click',
     function (event) {
-      var il = event.target.parentNode.id
+      var il = event.target.parentNode.getAttribute('data-iladi')
       var risk = window.gelen_veri[event.target.parentNode.id]
       if (risk) {
-        $('#baslik').html('<p style="color: #a7a1ae; text-align:center;">' + il.toUpperCase() + ' | ' + risk + '</p>')
+        $('#baslik').html('<p style="color: #a7a1ae; text-align:center;">' + il + ' | ' + risk + ' Risk Grubu' + '</p>')
       } else {
         $('#baslik').html("<p id='baslik' class='text-center' style='font-weight:bold; letter-spacing:0.2em'>Lütfen Yaşadığınız Şehri Seçiniz..</p>")
       }
       $('.sonuc').html(window.risk_detay[risk] + '<hr>')
       window.scroll({
-        top: 750,
+        top: $('.sonuc').offset().top - 40,
         behavior: 'smooth'
       });
     }

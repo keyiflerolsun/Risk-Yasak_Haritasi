@@ -28,7 +28,6 @@
 
 <body>
   <main role="main" class="container">
-
     <header class="header">
       <div class="container bg-dark">
         <span class="h-50 text-light">
@@ -39,13 +38,12 @@
       </div>
     </header>
 
+    <div class="il-isimleri"></div>
+    <div id="yukleniyo"></div>
 
     <!-- SVG Türkiye Haritası | MIT Lisans | dnomak.com -->
-    <div class="il-isimleri"></div>
-
     {% block harita %}
     {% endblock %}
-    <!-- SVG Türkiye Haritası -->
 
     <div class="sonuc"></div>
   </main>
@@ -56,6 +54,7 @@
     </div>
   </footer>
 
+  <!-- SVG Türkiye Haritası -->
   <script src="{{ url_for('static', filename='js/svg-turkiye-haritasi.js') }}"></script>
   <!-- @KekikAkademi -->
   <script src="{{ url_for('static', filename='js/keyiflerolsun.js') }}"></script>
