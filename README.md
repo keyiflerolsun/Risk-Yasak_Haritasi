@@ -44,6 +44,5 @@ python3 basla.py
 
 *Benimle iletişime geçmek isterseniz, **Telegram**'dan mesaj göndermekten çekinmeyin;* [@keyiflerolsun](https://t.me/keyiflerolsun)
 
-##
 
 > **[@KekikAkademi](https://t.me/KekikAkademi)** *için yazılmıştır..*
