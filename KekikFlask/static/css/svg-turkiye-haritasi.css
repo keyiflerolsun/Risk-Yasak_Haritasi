@@ -69,6 +69,13 @@ a:link {
     }
 }
 
+.table td, .table th {
+  border-top: 1px solid #a7a1ae;
+  border-bottom: 1px solid #a7a1ae;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
+
 .svg-turkiye-haritasi svg {
   width: 100%;
   height: auto;
