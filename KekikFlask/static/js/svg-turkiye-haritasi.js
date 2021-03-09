@@ -26,7 +26,7 @@ function svgturkiyeharitasi() {
   element.addEventListener(
     'mousemove',
     function (event) {
-      info.style.top = event.pageY + 25 + 'px';
+      info.style.top = event.pageY - 100 + 'px';
       info.style.left = event.pageX + 'px';
     }
   );
