@@ -1,0 +1,129 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-top: 60px; /* Margin bottom by footer height */
+  background-color: #1f2739;
+}
+
+a {
+  color: #4dc3fa;
+}
+
+a:hover {
+  color: #fff842 !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  /* height: 60px; /* Set the fixed height of the footer here */
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #2c3446;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  margin-bottom: 75px;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #2c3446;
+}
+
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+.svg-turkiye-haritasi {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#yukleniyo {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#yukleniyo.spin {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+th:nth-child(odd) {
+  border-top: 1px solid #a7a1ae;
+  border-bottom: 1px solid #a7a1ae;
+}
+
+th:nth-child(even) {
+  border-top: 1px solid #2c3446;
+  border-bottom: 1px solid #2c3446;
+}
+
+.table td, .table th {
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  vertical-align: middle;
+}
+
+.svg-turkiye-haritasi svg {
+  width: 100%;
+  height: auto;
+}
+.il-isimleri {
+  position: absolute;
+  z-index: 2;
+}
+.il-isimleri div {
+  display: inline-block;
+  background: #fff;
+  text-align: center;
+  color: #222;
+  padding: 8px 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: #222 1px solid;
+  border-radius: 4px;
+}
+#svg-turkiye-haritasi path {
+  cursor: pointer;
+  fill: #222;
+}
+#svg-turkiye-haritasi path:hover {
+  fill: #1094f6;
+}
+#guney-kibris {
+  pointer-events: none;
+}
+
+.secilen-il {
+  font-size: 18;
+  font-weight: bold;
+  color: #1f2739;
+}
+
+/* Not required for template or sticky footer method. */
+.container {
+  width: auto;
+  padding: 0 15px;
+}
