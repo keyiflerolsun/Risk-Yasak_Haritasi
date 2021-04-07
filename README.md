@@ -36,7 +36,7 @@ python basla.py
 - [x] *BootStrap entegresi ile sayfa tasarımı oluşturulmuştur..*
 - [x] *İlgili risk grubuna ilgili yasaklar tanımlanmıştır..*
 - [x] *Çeşitli Front-End fetişleri ile cicilenmiştir..*
-- [x] **Ömer Faruk Biçer** [@omerfarukbicer0446](https://github.com/omerfarukbicer0446) *tarafından harita'ya yükleniyor animasyonu eklenmiştir.*
+- [x] **Ömer Faruk Biçer** [@ofarukbicer](https://github.com/ofarukbicer) *tarafından harita'ya yükleniyor animasyonu eklenmiştir.*
 
 ## 💸 Bağış Yap
 
