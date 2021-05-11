@@ -1,0 +1,100 @@
+/* Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır. */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    background-color: #1f2739;
+}
+
+#baslik {
+    font-weight:bold;
+    letter-spacing:0.2em
+}
+
+a {
+    color: #4dc3fa;
+}
+
+a:hover {
+    color: #fff842 !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* height: 60px; /* Set the fixed height of the footer here */
+    line-height: 40px;
+    background-color: #2c3446;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    margin-bottom: 75px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #2c3446;
+}
+
+#yukleniyo {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#yukleniyo.spin {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+th:nth-child(odd) {
+    border-top: 1px solid #a7a1ae;
+    border-bottom: 1px solid #a7a1ae;
+}
+
+th:nth-child(even) {
+    border-top: 1px solid #2c3446;
+    border-bottom: 1px solid #2c3446;
+}
+
+.table td, .table th {
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    vertical-align: middle;
+}
+
+.secilen-il {
+    font-size: 18;
+    font-weight: bold;
+    color: #1f2739;
+}
+
+.container {
+    width: auto;
+    padding: 0 15px;
+}
+
+.text-muted i {
+    color: #a7a1ae !important;
+}
