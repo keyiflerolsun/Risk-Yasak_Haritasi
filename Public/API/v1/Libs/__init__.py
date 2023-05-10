@@ -1,3 +1,3 @@
 # Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-from Yardimcilar.risk_datasi import risk_durumlari
+from Public.API.v1.Libs.RiskVeri import risk_veri

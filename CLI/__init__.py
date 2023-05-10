@@ -1,3 +1,3 @@
 # Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+from Kekik.cli import konsol, cikis_yap, hata_yakala, hata_salla
